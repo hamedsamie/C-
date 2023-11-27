@@ -1,0 +1,15 @@
+1- Create a class named BankAccount with the following private members:
+accountNumber (string)
+accountHolderName (string)
+balance (double)
+2- Implement public member functions for the following functionalities:
+Constructor: Initialize the accountNumber, accountHolderName, and balance when an object is created.
+getAccountNumber(): Return the account number.
+getAccountHolderName(): Return the account holder's name.
+getBalance(): Return the account balance.
+deposit(double amount): Add the specified amount to the account balance.
+withdraw(double amount): Subtract the specified amount from the account balance. Ensure that the withdrawal is allowed only if the balance is sufficient.
+3- Ensure that the class enforces encapsulation by making the data members private and providing accessors and mutators where necessary.
+4- In the withdraw function, add a feature to notify the user if the withdrawal will result in a low balance (e.g., below a certain threshold).
+5- In the withdraw function, throw an exception if the withdrawal amount exceeds the account balance.
+6- Create a simple program to test your BankAccount class. Demonstrate the use of the constructor, deposit, and withdrawal functionalities.

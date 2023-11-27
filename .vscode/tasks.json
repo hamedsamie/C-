@@ -11,7 +11,7 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
-                "${file}",
+                "*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
